@@ -15,7 +15,7 @@ app.use(express.static(publicPath));
 
 // // IO comunicacion con el backend
 // module.exports.io = socketIO.listen(server);
-var io = require('socket.io')(app)
+var io = require('socket.io').listen(server);
 
 io.on('connection', function(socket){
 	io.sockets.emit("user-joined", socket.id, io.engine.clientsCount, Object.keys(io.sockets.clients().sockets));
