@@ -1,19 +1,24 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "webrtc-multi-peer-video-audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicendev/prototipo-multipeer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicendev/prototipo-multipeer/issues"
+  },
+  "homepage": "https://github.com/vicendev/prototipo-multipeer#readme",
   "dependencies": {
-    "express": "2.5.8",
-    "jade": ">= 0.0.1",
-    "http": "0.0.0",
-    "socket.io": "^1.7.3"
-  },
-  "devDependencies": {
-    "http": "0.0.0",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
     "socket.io": "^1.7.3"
   }
 }
