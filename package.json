@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "express": "2.5.8",
-    "jade": ">= 0.0.1"
+    "jade": ">= 0.0.1",
+    "http": "0.0.0",
+    "socket.io": "^1.7.3"
   },
   "devDependencies": {
     "http": "0.0.0",
